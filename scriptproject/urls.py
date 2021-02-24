@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from mathapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mathadd/',views.mathadd,name='mathadd'),
+    path('matharea/',views.matharea,name='matharea'),
+    path('bootstrap/',views.bootstrap,name='bootstrap'),
 ]
