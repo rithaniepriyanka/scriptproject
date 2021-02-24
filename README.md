@@ -265,7 +265,7 @@ volumeBtn.addEventListener('click', function (e) {
 
 ## OUTPUT:
 ![output](./static/img/add.png)
-![output](./static/img/vol1.png)
+![output](./static/img/vol.png)
 
 ## VALIDATION REPORT
 ![output](./static/img/val1.png)
